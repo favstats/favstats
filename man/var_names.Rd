@@ -2,17 +2,15 @@
 % Please edit documentation in R/var_names.R
 \name{var_names}
 \alias{var_names}
-\title{A Cat Function}
+\title{A Searcher function}
 \usage{
 var_names(data, keyword = "")
 }
-\arguments{
-\item{love}{Do you love cats? Defaults to TRUE.}
-}
 \description{
-This function allows you to express your love of cats.
+This function allows you to find variables and their coding.
+Only works with SPSS data loaded with haven.
 }
 \examples{
 var_names()
 }
-\keyword{cats}
+\keyword{searcher}

@@ -1,8 +1,9 @@
-#' A Cat Function
+#' A Searcher function
 #'
-#' This function allows you to express your love of cats.
-#' @param love Do you love cats? Defaults to TRUE.
-#' @keywords cats
+#' This function allows you to find variables and their coding.
+#' Only works with SPSS data loaded with haven.
+#' @param
+#' @keywords searcher
 #' @export
 #' @examples
 #' var_names()
