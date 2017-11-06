@@ -30,8 +30,8 @@ tbl_std <- function(model, ...) {
   stargazer(model, model1.beta,
             coef = list(model$coefficients,
                         model1.beta$standardized.coefficients),
-            column.labels = c("b", "b*"),
-            ...)
+            column.labels = c("b", "b*"), table.placement = "ht!",
+            header = F, ...)
 }
 
 
