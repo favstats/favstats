@@ -24,7 +24,7 @@ tbl_std <- function(model, ...) {
   #Standardized betas
   model1.beta<-lm.beta(model)
   #print
-  model1.beta$standardized.coefficients[1] <- NA
+  #model1.beta$standardized.coefficients[1] <- NA
   #coef(summary(model1.beta))[, "Std. Error"]  <- NA
 
   stargazer(model, model1.beta,
