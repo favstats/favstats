@@ -11,8 +11,11 @@ tbl_std(model, ...)
 
 \item{...}{stargazer options.}
 }
+\value{
+returns a stargazer table.
+}
 \description{
-This function creates a stargazer table 
+This function creates a stargazer table
 with standardized estimates
 }
 \examples{
