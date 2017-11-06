@@ -3,7 +3,7 @@
 #' This function creates a stargazer table 
 #' with standardized estimates
 #'
-#' @param model1 put in the model (lm object) here.
+#' @param model put in the model (lm object) here.
 #' @param ... stargazer options.
 #'
 #' @return 
@@ -20,15 +20,15 @@
 #' tbl_std(model1, type = "text")
 
 
-tbl_std <- function(model1, ...) {
+tbl_std <- function(model, ...) {
   #Standardized betas
-  model1.beta<-lm.beta(model1)
+  model1.beta<-lm.beta(model)
   #print
   model1.beta$standardized.coefficients[1] <- NA
   #coef(summary(model1.beta))[, "Std. Error"]  <- NA
   
-  stargazer(model1, model1.beta, 
-            coef = list(model1$coefficients, 
+  stargazer(model, model1.beta, 
+            coef = list(model$coefficients, 
                         model1.beta$standardized.coefficients), 
             column.labels = c("b", "b*"),
             ...)

@@ -4,10 +4,10 @@
 \alias{tbl_std}
 \title{Create table with standardized estimates}
 \usage{
-tbl_std(model1, ...)
+tbl_std(model, ...)
 }
 \arguments{
-\item{model1}{put in the model (lm object) here.}
+\item{model}{put in the model (lm object) here.}
 
 \item{...}{stargazer options.}
 }
