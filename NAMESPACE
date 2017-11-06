@@ -2,3 +2,5 @@
 
 export(range01)
 export(var_names)
+export(tbl_std)
+
