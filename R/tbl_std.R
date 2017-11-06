@@ -7,6 +7,7 @@
 #' @param ... stargazer options.
 #'
 #' @return returns a stargazer table.
+#' @export
 #' @examples
 #' # #fake data
 #' var1<-rnorm(100, mean=10, sd=5)
