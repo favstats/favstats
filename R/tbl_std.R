@@ -7,7 +7,6 @@
 #' @param ... stargazer options.
 #'
 #' @return returns a stargazer table.
-#' @export
 #' @examples
 #' # #fake data
 #' var1<-rnorm(100, mean=10, sd=5)
@@ -19,7 +18,7 @@
 #' model1<-lm(var1~var2+var3+var4, data=df)
 #'
 #' tbl_std(model1, type = "text")
-
+#' @export
 
 tbl_std <- function(model, ...) {
   #Standardized betas
