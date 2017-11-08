@@ -11,8 +11,6 @@ Imports:
 	tidyverse,
 	labelled,
 	sjmisc,
-	magrittr,
-	lme4,
 	lm.beta,
 	stargazer
 RoxygenNote: 6.0.1.9000
